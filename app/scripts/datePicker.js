@@ -24,6 +24,10 @@ Module.constant('datePickerConfig', {
 //Moment format filter.
 Module.filter('mFormat', function () {
   return function (m, format, tz) {
+    //Hack to support enmpty date
+    if(m === '') {
+      return '';
+    }
     if (!(moment.isMoment(m))) {
       return moment(m).format(format);
     }
