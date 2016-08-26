@@ -950,8 +950,13 @@ var PRISTINE_CLASS = 'ng-pristine',
           });
         }
 
-        element.bind('focus', showPicker);
-        element.bind('click', showPicker);
+        //when enter is pressed display picker
+        element.bind('keypress', function (event) {
+            if(event.which === 13) {
+              showPicker();
+            }
+        });
+        element.bind('mousedown', showPicker);
         element.bind('blur', clear);
         getTemplate();
       }
