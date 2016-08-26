@@ -986,7 +986,7 @@ $templateCache.put('templates/datepicker.html',
     "\n" +
     "      <tr>\r" +
     "\n" +
-    "        <th ng-repeat=\"day in weekdays\" style=\"overflow: hidden\" ng-bind=\"day|mFormat:'ddd':tz\"></th>\r" +
+    "        <th ng-repeat=\"day in weekdays\" style=\"overflow: hidden\" ng-bind=\"day|mFormat:'dd':tz\"></th>\r" +
     "\n" +
     "      </tr>\r" +
     "\n" +
