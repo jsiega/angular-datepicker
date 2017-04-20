@@ -1,3 +1,3 @@
 require('./dist/index.js');
-module.exports = 'datePicker';
+module.exports = 'opw-datepicker';
 
