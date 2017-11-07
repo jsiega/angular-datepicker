@@ -1,9 +1,9 @@
 {
-  "name": "angular-datepicker",
+  "name": "opw-datepicker",
   "version": "2.1.4",
   "main": "dist/angular-datepicker.js",
   "repository": {
-    "url": "https://github.com/g00fy-/angular-datepicker.git"
+    "url": "https://github.com/jsiega/angular-datepicker"
   },
   "dependencies": {},
   "devDependencies": {
